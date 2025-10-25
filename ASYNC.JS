@@ -478,16 +478,16 @@
 
 // //                     //currying
 
-function sum(a){
-    return function(b){
-        return function(c){
-            return a+(a+b*c)
-        }
-    }
-}
+// function sum(a){
+//     return function(b){
+//         return function(c){
+//             return a+(a+b*c)
+//         }
+//     }
+// }
 
-let val=sum(121)(1)(3)
-console.log(val);
+// let val=sum(121)(1)(3)
+// console.log(val);
 
  
 // //         //destrunturing
@@ -519,7 +519,9 @@ console.log(val);
 // }
 // console.log(person?.name?.lastname);
 
- 
+
+
+
 
 
 
